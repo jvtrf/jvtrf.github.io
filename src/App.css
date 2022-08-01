@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 :root {
-  --main-color: rgb(65, 65, 65);
-  --text-color: white;
-  --text-color-hover: rgba(49, 49, 49, 0.8);
-  /* --main-color: white;
+  --main-color: white;
+  --main-color-gradient: linear-gradient(var(--main-color), rgb(179, 242, 253));
   --text-color: black;
-  --text-color-hover: rgba(240, 249, 255, 0.8); 
-  -> rgb(132, 202, 248) gradient 
-  */
+  --nav-bg-hover: rgba(241, 241, 241, 0.8);
 }
 * {
   margin: 0;
@@ -53,7 +49,7 @@ header {
 }
 .menu-link:hover {
   color: var(--text-color);
-  background-color: var(--text-color-hover);
+  background-color: var(--nav-bg-hover);
 }
 #contact-drop {
   cursor: default;
@@ -73,11 +69,26 @@ header {
 .menu i {
   margin: 0px 5px;
 }
-
+#theme-switch {
+  position: absolute;
+  left: 90%;
+  top: 10px;
+}
+.form-switch .form-check-input {
+  background-image: url(/src/img/icons8-sun-32.svg);
+  height: 20px;
+  width: 40px;
+}
+.form-switch .form-check-input:focus {
+  background-image: url(/src/img/icons8-sun-32.svg);
+}
+.form-switch .form-check-input:checked {
+  background-image: url(/src/img/moon-solid.svg);
+}
 /* HEADER */
 
 .main-content {
-  background-image: linear-gradient(var(--main-color), black);
+  background-image: var(--main-color-gradient);
   width: 100vw;
   height: 90vh;
 }
