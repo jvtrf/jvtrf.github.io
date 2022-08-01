@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jvtrf-page/static/css/main.4f270b5d.css",
+    "main.js": "/jvtrf-page/static/js/main.5a7d4fb9.js",
+    "index.html": "/jvtrf-page/index.html",
+    "static/media/icons8-sun-32.svg": "/jvtrf-page/static/media/icons8-sun-32.bcca9b01f4dd7ffe9d8e.svg",
+    "static/media/moon-solid.svg": "/jvtrf-page/static/media/moon-solid.b3b649dd58fa004aebb7.svg",
+    "main.4f270b5d.css.map": "/jvtrf-page/static/css/main.4f270b5d.css.map",
+    "main.5a7d4fb9.js.map": "/jvtrf-page/static/js/main.5a7d4fb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f270b5d.css",
+    "static/js/main.5a7d4fb9.js"
+  ]
+}
